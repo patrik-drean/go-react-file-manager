@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { FileList } from './components/FileList/FileList'
 import { FilePreview } from './components/FilePreview/FilePreview'
-import firstPhoto from './first-photo.jpg'
-import secondPhoto from './second-photo.jpg'
-import testVideo from './test.mp4'
+import firstPhoto from './1-photo.jpg'
+import secondPhoto from './2-photo.jpg'
+import video from './0-video.mp4'
 import './App.css'
 
 function App() {
-  const [files, setFiles] = useState([firstPhoto, secondPhoto, testVideo])
+  const [files, setFiles] = useState([firstPhoto, secondPhoto, video])
   const [selectedFile, setSelectedFile] = useState(firstPhoto)
 
   return (
