@@ -1,0 +1,22 @@
+.file-list {
+  margin: 16px;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-list-header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  margin: 12px 0px 24px 0px;
+}
+
+.file-list-item {
+  margin: 4px 16px;
+  color: #61dafb;
+}
+
+.file-list-item:hover {
+  color: #1dbeeb;
+  cursor: pointer;
+}
